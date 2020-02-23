@@ -39,3 +39,8 @@ function max_array($arr)
 }
 echo max_array(array(6, 2, 3, 10, 5));
 echo "\n";
+
+
+date_default_timezone_set('Japan');
+echo date('Y/m/d');
+echo "\n";
