@@ -44,3 +44,20 @@ echo "\n";
 date_default_timezone_set('Japan');
 echo date('Y/m/d');
 echo "\n";
+
+$str = "<h1>aa</h1>"
+    ."<p>ss</p>";
+echo strip_tags($str) ."\n";
+
+$stack = array("orange", "banana");
+array_push($stack, "apple", "raspberry");
+print_r($stack);
+
+$array1 = array();
+$array2 = array(1 => "data");
+$result = array_merge($array1, $array2);
+print_r($result);
+
+$timestamp = time() ;
+
+echo $timestamp ;
